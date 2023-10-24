@@ -30,3 +30,17 @@ Mas informacion, ver [introduction guide](https://geopandas.org/en/stable/gettin
 # How to read and write files
 ## 1.Reading files
 Se pueden leer archivos comunes como csv, y de excel o archivos espaciales (GeoPackage, GeoJSON, Shapefile). Estos ultimos se pueden se leidos aplicando el metodo: **geopandas.read_file()**, el cual detecta de forma automática los formatos espaciales y genera el **GeoDataFrame**
+
+Ejemplo:
+```
+import geopandas
+from geodatasets import get_path
+
+path_to_data = get_path("nybb")
+gdf = geopandas.read_file(path_to_data)
+
+gdf
+```
+
+[Ver ejmplo](https://colab.research.google.com/drive/1F_546jY70lSRWI4rQFyCpZZyMI8ldSN2?usp=sharing)
+
