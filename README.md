@@ -15,3 +15,7 @@ pip install geopandas
 ````
 
 Para más informacion, consultar la [guia de instalacion](https://geopandas.org/en/stable/getting_started/install.html)
+
+# Virtual environment creation
+* [Guia para crear un ambiente virtual con **conda**]()
+* [Guia para crear un ambiente virtual con **pip**]()
