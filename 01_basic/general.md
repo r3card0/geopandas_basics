@@ -53,3 +53,8 @@ import os
 os.chdir("/directory/path/ny")
 data_gdf.to_file("NewYork" + ".shp")
 ```
+### Conclusión
+* Se requieren las librerias *pandas* y *geopandas*, para crear el dataframe y convertirlo en geodataframe posteriormente.
+
+* La libreria *shapely.geometry* con el método *Point*, permite crear objetos geométricos de tipo Point a partir de las coordenadas geográficas latitud y longitud. Se aplicó una list comprehension, combinando el método *Point* y el método *zip( )*, para combinar los valores de latitud y longitud y crear la geometría
+* De esta manera, se puede crear un shapefile a partir de un diccionario como input.
